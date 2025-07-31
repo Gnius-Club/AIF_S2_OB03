@@ -1,24 +1,167 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook Intro 3 (2º SEC): Tu Primera Creación con IA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
-</body>
 
+    <header>
+        <h1><span class="book-icon">📋</span> <strong>Playbook Intro 3: Tu Primera Creación con IA</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Saludo y Conexión ⏰ 3 minutos</h2>
+                <p>Iniciar la sesión estableciendo el tono profesional y la rutina de colaboración con Xolo.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Bienvenida y Contexto ⏰ 3 minutos</h3>
+                            <p>El facilitador conecta las sesiones anteriores con el objetivo de hoy: la primera creación real.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Desarrolladores, ya conocemos la misión y nuestro estudio está equipado. Hoy, todo se integra. Vivirán su primera experiencia como directores de un proyecto creativo, aplicando la metodología 'AI-First'. No se trata de ejecutar clics, se trata de dirigir a un equipo de IAs para materializar una visión. Iniciemos con nuestro 'handshake' digital a Xolo para que nos prepare el espacio de trabajo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: "I Can Statement" y Ejemplificación ⏰ 7 minutos</h2>
+                <p>Clarificar el objetivo de aprendizaje y mostrar un ejemplo del producto final para establecer una meta clara y profesional.</p>
+                 <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Declaración del "I Can Statement" ⏰ 3 minutos</h3>
+                            <p>El facilitador define el objetivo de aprendizaje concreto para la sesión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Nuestra meta para hoy es muy específica. Al finalizar la sesión, podrán afirmar con seguridad: <strong>'Yo puedo planificar y ensamblar una escena 3D básica, usando a Xolo como mi asistente de producción y 'concept art' generado por IA como mi guía visual.'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Presentación de un Ejemplo ⏰ 4 minutos</h3>
+                            <p>El facilitador muestra un ejemplo de una escena simple en Delightex junto al 'concept art' y el plan de assets que la originaron.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Esto es a lo que aspiramos hoy. (Proyecta una escena simple y a un lado, una imagen de 'concept art' y una lista de 5 assets). Observen la conexión. La idea ('vibe') se traduce en una imagen de inspiración. La imagen, con ayuda de un LLM, se descompone en un plan de producción (la lista de assets). El plan guía la construcción. Este es el flujo de trabajo profesional que emularemos hoy.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: A.I. GYM (Dominando el Flujo de Trabajo) ⏰ 10 minutos</h2>
+                <p>Fase de diálogo con Xolo para entender su doble rol: Tutor de Apoyo para habilidades técnicas y Colaborador Creativo para la producción.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: El Rol Dual de Xolo ⏰ 10 minutos</h3>
+                            <p>Los estudiantes interactúan con Xolo para que les explique cómo los guiará en los dos tipos de misiones que tendrán: 'Skill Labs' y 'Studio Sessions'.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Entramos al A.I. GYM. Hoy haremos un poco de 'Skill Lab' y un poco de 'Studio Session'. Necesitan entender cómo Xolo los ayudará en cada una. Consulten a Xolo directamente: <strong>'Xolo, explícame tu rol como Tutor de Apoyo para adquirir habilidades técnicas en un 'Skill Lab', y luego tu rol como Colaborador Creativo en una 'Studio Session' para avanzar en mi proyecto.'</strong> Xolo les referirá a los tutoriales necesarios (la parte de Skill Lab) y les explicará cómo puede ayudarles a planificar (la parte de Studio Session). Es fundamental que entiendan esta dualidad.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: Brain Spark (El Taller del Arquitecto 3D) ⏰ 15 minutos</h2>
+                <p>El corazón de la sesión: los estudiantes aplican la metodología completa para planificar y construir su primera escena.</p>
+                 <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Skill Lab - Dominio de Herramientas ⏰ 5 minutos</h3>
+                            <p>Los alumnos siguen las indicaciones de Xolo para completar los tutoriales técnicos de navegación y manipulación en Delightex.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Ahora, al Brain Spark. La primera fase es un 'Skill Lab'. Tienen 5 minutos para completar los tutoriales '1- Navigating in a Project' y '2- Manipulating Objects' en Delightex, como les indicó Xolo. Es el calentamiento técnico antes de la creación. Comiencen.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Studio Session - Planificación y Construcción ⏰ 10 minutos</h3>
+                            <p>Los alumnos, en parejas, planifican y construyen una escena usando a Xolo y las IAs generativas.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Tiempo. Ahora, modo 'Studio Session'. Formen parejas. Definan una 'vibe' para una escena. Usen KREA.ai para generar una imagen de 'concept art'. Luego, muestren esa imagen a Xolo y pídanle que, como su asistente de producción, les genere una lista de 5 assets clave para construirla. Finalmente, con ese plan, abran Delightex y empiecen a ensamblar la escena. Tienen 10 minutos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gnius STORM (Showcase de Proyectos) ⏰ 5 minutos</h2>
+                <p>Cierre de la sesión donde los equipos presentan su trabajo y reflexionan sobre el proceso de co-creación.</p>
+                <div class="steps">
+                     <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Showcase y Reflexión ⏰ 5 minutos</h3>
+                            <p>El facilitador invita a 2-3 equipos a presentar su escena, el 'concept art' y el plan de assets, y cierra la sesión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Tiempo. Excelente trabajo. Quiero invitar a 2 o 3 equipos a que proyecten su trabajo. Muéstrennos su escena en Delightex, su 'concept art' y el plan de Xolo. Expliquen cómo pasaron de la idea al resultado. (Gestiona las presentaciones). Hoy han completado su primer ciclo de producción profesional: ideación, planificación y ejecución. Han dirigido un equipo de IAs para crear algo nuevo. Esta es la base de todo lo que haremos. Felicitaciones, arquitectos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
